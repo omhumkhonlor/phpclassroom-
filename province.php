@@ -55,6 +55,3 @@
   echo $val->update_date;
   echo "</center>";
 ?>
-
-     
-   
