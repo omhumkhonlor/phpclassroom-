@@ -6,26 +6,26 @@
   echo "<br><h2><center><b>รายงานสถานการณ์ COVID-19 ประจำวัน แยกตามรายจังหวัด</b></center></h2><br>";
   echo "<center><table border='1'>";
   echo "<tr align='center'>
-        <td bgcolor='#413C69'><b>ลำดับ</b></td>
-        <td bgcolor='#82B2B7'><b>จังหวัด</b></td>
-        <td bgcolor='#4682B4'><b>ผู้ป่วยใหม่</b></td>
-        <td bgcolor='#218B81'><b>ผู้ป่วยรวม</b></td>
-        <td bgcolor='#FFD700'><b>ผู้ป่วยในประเทศ</b></td>
-        <td bgcolor='#FF4500'><b>ผู้ป่วยรวมในประเทศ</b></td>
-        <td bgcolor='#A52A2A'><b>ผู้เสียชีวิตใหม่</b></td>
-        <td bgcolor='#9C4B28'><b>ผู้เสียชีวิตรวม</b></td></font></tr>";
+        <td bgcolor='#99CC99'><b>ลำดับ</b></td>
+        <td bgcolor='#FFCC66'><b>จังหวัด</b></td>
+        <td bgcolor='#996699'><b>ผู้ป่วยใหม่</b></td>
+        <td bgcolor='#6699CC'><b>ผู้ป่วยรวม</b></td>
+        <td bgcolor='#FFFF66'><b>ผู้ป่วยในประเทศ</b></td>
+        <td bgcolor='#CC6666'><b>ผู้ป่วยรวมในประเทศ</b></td>
+        <td bgcolor='#99FFFF'><b>ผู้เสียชีวิตใหม่</b></td>
+        <td bgcolor='#FFCC00'><b>ผู้เสียชีวิตรวม</b></td></font></tr>";
  
   foreach($data as $key=>$val){
     echo "<tr align='center'>";
-    echo "<td bgcolor='#D8BFD8'>";
+    echo "<td bgcolor='#F0FFF0'>";
     echo ($key+1);
     echo "</td>";
     
-    echo "<td bgcolor='#B0E0E6'>";
+    echo "<td bgcolor='#FFFFCC'>";
     echo $val->province;
     echo "</td>";
     
-    echo "<td bgcolor='#B0C4DE'>";
+    echo "<td bgcolor='#E6E6FA'>";
     echo $val->new_case;
     echo "</td>";
     
