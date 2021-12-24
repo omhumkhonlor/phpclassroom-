@@ -29,23 +29,23 @@
     echo $val->new_case;
     echo "</td>";
     
-    echo "<td bgcolor='#A9C8C0'>";
+    echo "<td bgcolor='#F0F8FF'>";
     echo $val->total_case;
     echo "</td>";
     
-    echo "<td bgcolor='#FDFFBC'>";
+    echo "<td bgcolor='#FFFFF0'>";
     echo $val->new_case_excludeabroad;
     echo "</td>";
     
-    echo "<td bgcolor='#FFD1BB'>";
+    echo "<td bgcolor='#FFE4E1'>";
     echo $val->total_case_excludeabroad;
     echo "</td>";
     
-    echo "<td bgcolor='#FFB4B4'>";
+    echo "<td bgcolor='#F0FFFF'>";
     echo $val->new_death;
     echo "</td>";
     
-    echo "<td bgcolor='#E9967A'>";
+    echo "<td bgcolor='#FFF8DC'>";
     echo $val->total_death;
     echo "</td>";
     echo "</tr>";
